@@ -1,0 +1,842 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Woocommerce Synchronizer\n"
+"POT-Creation-Date: 2019-02-15 12:42+0330\n"
+"PO-Revision-Date: 2019-02-15 12:42+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo_sync.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/setting.php:25 admin/setting.php:34
+msgid "Publish List"
+msgstr ""
+
+#: admin/setting.php:26 admin/setting.php:35
+msgid "Download Products"
+msgstr ""
+
+#: admin/setting.php:27 admin/setting.php:33
+msgid "Settings"
+msgstr ""
+
+#: admin/setting.php:48
+msgid "Target Store url"
+msgstr ""
+
+#: admin/setting.php:57
+msgid "Target Store Consumer key"
+msgstr ""
+
+#: admin/setting.php:65
+msgid "Target Store Consumer secret"
+msgstr ""
+
+#: admin/setting.php:71
+msgid "View the tutorial of how to create consumer key and secret"
+msgstr ""
+
+#: admin/setting.php:83
+msgid "Test Rest Api Connection"
+msgstr ""
+
+#: admin/setting.php:85 admin/setting.php:224
+msgid "Click Here"
+msgstr ""
+
+#: admin/setting.php:96
+msgid "*woo sync target* access code"
+msgstr ""
+
+#: admin/setting.php:99
+msgid "Download *woo sync target*"
+msgstr ""
+
+#: admin/setting.php:99
+msgid ""
+"This plugin should be installed on the target store. Please read the product "
+"guide."
+msgstr ""
+
+#: admin/setting.php:100
+msgid ""
+"If you have installed the *woo sync target* plugin on the target site, after "
+"activation , an access code will be announced to you. Insert that code in "
+"the top field."
+msgstr ""
+
+#: admin/setting.php:106
+msgid "immediate change options :"
+msgstr ""
+
+#: admin/setting.php:113
+msgid "Products"
+msgstr ""
+
+#: admin/setting.php:115 admin/setting.php:124 admin/setting.php:132
+#: admin/setting.php:141
+msgid "Enable"
+msgstr ""
+
+#: admin/setting.php:116
+msgid ""
+"If this option is enabled, whenever you publish a new product or delete or "
+"edit products, these changes will be applied immediately to the target store."
+msgstr ""
+
+#: admin/setting.php:122
+msgid "Categories"
+msgstr ""
+
+#: admin/setting.php:125
+msgid ""
+"If this option is enabled, any add/edit or delete applied to the product "
+"category section will be applied immediately to the target store."
+msgstr ""
+
+#: admin/setting.php:130
+msgid "Tags"
+msgstr ""
+
+#: admin/setting.php:133
+msgid ""
+"If this option is enabled, all changes to the tags section are immediately "
+"applied to the tags section of the target store."
+msgstr ""
+
+#: admin/setting.php:139
+msgid "Attributes"
+msgstr ""
+
+#: admin/setting.php:142
+msgid ""
+"If this option is enabled, all changes to the product features section are "
+"immediately applied to the product features of the target store."
+msgstr ""
+
+#: admin/setting.php:148
+msgid "Do you use the plugin on the localhost?"
+msgstr ""
+
+#: admin/setting.php:150
+msgid "Yes"
+msgstr ""
+
+#: admin/setting.php:156
+msgid "Further Details"
+msgstr ""
+
+#: admin/setting.php:158
+msgid ""
+"This plugin uses the Woocommerce Rest Api and capability to connect to the "
+"target site. Since there are always limitations in this connection, when you "
+"want to connect with your online store by using localhost and when creating "
+"products, if you choose a picture for your product, your online store cannot "
+"download the picture from your localhost and upload it to the server. Thus, "
+"creating a product will face an error and no product will be created in your "
+"store. To fix this problem, all files and pictures uploaded to your "
+"localhosts should be uploaded to an online server, which can be performed "
+"using the following settings."
+msgstr ""
+
+#: admin/setting.php:160
+msgid "How to Create an FTP account in Cpanel"
+msgstr ""
+
+#: admin/setting.php:161
+msgid "How to Create an FTP account in DirectAdmin"
+msgstr ""
+
+#: admin/setting.php:168
+msgid "Target store server IP"
+msgstr ""
+
+#: admin/setting.php:177
+msgid "FTP port"
+msgstr ""
+
+#: admin/setting.php:185
+msgid "FTP Username"
+msgstr ""
+
+#: admin/setting.php:194
+msgid "FTP Password"
+msgstr ""
+
+#: admin/setting.php:203
+msgid "Upload url"
+msgstr ""
+
+#: admin/setting.php:211
+msgid "Upload path"
+msgstr ""
+
+#: admin/setting.php:222
+msgid "Test FTP Connection"
+msgstr ""
+
+#: admin/setting.php:250
+msgid "Update before Publish"
+msgstr ""
+
+#: admin/setting.php:253
+msgid "update latest changes"
+msgstr ""
+
+#: admin/setting.php:254
+msgid "Clear latest changes log"
+msgstr ""
+
+#: admin/setting.php:258
+msgid "Updating"
+msgstr ""
+
+#: admin/setting.php:272 admin/setting.php:344
+msgid "ID"
+msgstr ""
+
+#: admin/setting.php:275 admin/setting.php:347
+msgid "Name"
+msgstr ""
+
+#: admin/setting.php:278 admin/setting.php:350
+msgid "Type"
+msgstr ""
+
+#: admin/setting.php:281 admin/setting.php:353
+msgid "Action"
+msgstr ""
+
+#: admin/setting.php:284 admin/setting.php:356
+msgid "Date"
+msgstr ""
+
+#: admin/setting.php:287 admin/setting.php:359
+msgid "Cancel"
+msgstr ""
+
+#: admin/setting.php:301
+msgid "Product"
+msgstr ""
+
+#: admin/setting.php:304
+msgid "Attribute"
+msgstr ""
+
+#: admin/setting.php:307
+msgid "Category"
+msgstr ""
+
+#: admin/setting.php:310
+msgid "Attribute Term"
+msgstr ""
+
+#: admin/setting.php:313
+msgid "Tag"
+msgstr ""
+
+#: admin/setting.php:316
+msgid "Media"
+msgstr ""
+
+#: admin/setting.php:323 includes/publisher.php:101
+msgid "Create"
+msgstr ""
+
+#: admin/setting.php:326 includes/publisher.php:105
+msgid "Edit"
+msgstr ""
+
+#: admin/setting.php:329 includes/publisher.php:109
+msgid "Delete"
+msgstr ""
+
+#: admin/setting.php:332 includes/publisher.php:113
+msgid "Trash"
+msgstr ""
+
+#: admin/setting.php:335 includes/publisher.php:117
+msgid "Untrash"
+msgstr ""
+
+#: admin/setting.php:374
+msgid "There is no item to publish!"
+msgstr ""
+
+#: admin/setting.php:379
+msgid "Publish all items"
+msgstr ""
+
+#: admin/setting.php:384
+msgid "Publishing..."
+msgstr ""
+
+#: admin/setting.php:405
+msgid "Continue"
+msgstr ""
+
+#: admin/setting.php:418
+msgid "Download Products of target store"
+msgstr ""
+
+#: admin/setting.php:422
+msgid "Update"
+msgstr ""
+
+#: admin/setting.php:423
+msgid "Clear download history"
+msgstr ""
+
+#: admin/setting.php:430
+msgid "Downloading..."
+msgstr ""
+
+#: includes/functions.php:145
+msgid "Publish now!"
+msgstr ""
+
+#: includes/functions.php:348
+msgid "To use this plugin, you need to install the Woocommerce."
+msgstr ""
+
+#: includes/functions.php:473
+msgid ""
+"Error: Unable to connect to the target site\n"
+"                      <br><br>\n"
+"                      This error may occur due to one of the following "
+"reasons: <br>\n"
+"                      1. The consumer key or Secret is not entered "
+"correctly. <br>\n"
+"                      2. Access is not available by .htaccess. <br> <br>\n"
+"\n"
+"                      Suggested solutions:<br>\n"
+"                      In the first case, please ensure the accuracy of the "
+"entered information and proceed with the tutorial of %how to create consumer "
+"key and secret%.<br>\n"
+"                      In the second case, please login to control panel of "
+"your server then go to the Public_html directory(Your wordpress main "
+"directory) and find .htaccess file then edit it as follows:<br>\n"
+"                      In the line after #BEGIN WordPress, place the "
+"following code:<br>\n"
+"                      <br><br>\n"
+"\n"
+"                     <div class=\"container\" style=\"direction: ltr !"
+"important;text-align: left;\"><div class=\"line number1 index0 alt2\"><code "
+"class=\"xml plain\">&lt;</code><code class=\"xml keyword\">IfModule</code> "
+"<code class=\"xml plain\">mod_rewrite.c&gt;</code></div><div class=\"line "
+"number2 index1 alt1\"><code class=\"xml plain\">RewriteEngine On</code></"
+"div><div class=\"line number3 index2 alt2\"><code class=\"xml plain"
+"\">RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]</code></"
+"div><div class=\"line number4 index3 alt1\"><code class=\"xml plain\">&lt;/</"
+"code><code class=\"xml keyword\">IfModule</code><code class=\"xml plain"
+"\">&gt;</code></div></div>\t\t\t\t\n"
+"\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t<br><br>\n"
+"                    If the above solutions were not effective, one of the "
+"plugins on the target site would be interfering with the creation of this "
+"connection. To solve this problem, please first add a plugin <br>\n"
+"\t\t\t\t\t<a href=\"https://github.com/WP-API/Basic-Auth\" target=\"_blank"
+"\">“Basic Authentication Handler”</a> <br>on your online store. Then, "
+"instead of the consumer key and Secret, enter the username and password of "
+"the target site admin in the above fields.\n"
+"                    Then, click on the connection test and if the problem "
+"persists, contact the plugin developer.\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: includes/functions.php:498
+msgid "The connection to the target store is established."
+msgstr ""
+
+#: includes/functions.php:517
+msgid ""
+"Wrong URL , Make sure to enter the store URL as the following example and "
+"avoid placing / at the end of the address:<br> http://example.com or https://"
+"example.com"
+msgstr ""
+
+#: includes/functions.php:521 includes/functions.php:590
+#: includes/publisher.php:48 includes/synchronizer/local/create.php:874
+#: woo_sync.php:85
+msgid "Internet connection is not established..."
+msgstr ""
+
+#: includes/functions.php:571
+msgid ""
+"REST Api Connection is not established , please go to top of this page and "
+"click on <test rest api connection> to find the possible reasons."
+msgstr ""
+
+#: includes/functions.php:586
+msgid ""
+"Wrong TARGET STORE URL , GO to top of this page and Make sure to enter the "
+"store URL as the following example and avoid placing / at the end of the "
+"address:<br> http://example.com or https://example.com"
+msgstr ""
+
+#: includes/functions.php:609
+#, php-format
+msgid ""
+"Ftp connection failed. This error may be due to one of the following reasons:"
+"<br><br>\n"
+"                      1. You entered the FTP port incorrectly.<br>\n"
+"                      2. The username or password is incorrect.<br>\n"
+"                      <br>\n"
+"                      Please, if the above information is not available to "
+"you, get the host FTP information for %1$s domain from your hosting company, "
+"or create a new FTP account according to the above tutorials."
+msgstr ""
+
+#: includes/functions.php:635
+msgid "Connection with ftp was successful."
+msgstr ""
+
+#: includes/functions.php:635
+msgid "Click on *Save Changes* now!"
+msgstr ""
+
+#: includes/functions.php:661
+#, php-format
+msgid ""
+"FTP connection was successful , but something is wrong with your server!"
+"<br>\n"
+"             In general, if your WordPress is installed as standard, the "
+"address of storing information from the localhost in your server should be "
+"as follows:<br>\n"
+"\t\t\t <b style=\"text-align:left; direction:ltr;\">../domains/%1$s/"
+"public_html/wp-content/uploads/woo-sync/</b><br>\n"
+"\t\t\t In this case, if a file is stored in this path, you should be able to "
+"open a link like the following link in browser.<br>\n"
+"\t\t\t <b style=\"text-align:left; direction:ltr;\">%2$s/wp-content/uploads/"
+"woo-sync/example.png</b><br>\n"
+"\t\t\t However , in your server, the plugin could not find or create this "
+"path. At the moment, there are two fields above that you need to complete.\n"
+"\t\t\t <br><br>\n"
+"\t\t\t To do this, first login to control panel of your server and create a "
+"new ftp account (as mentioned in the tutorials)<br>\n"
+"\t\t\t Then copy username and password of your new ftp to \"FTP username\" "
+"and \"FTP Password.\n"
+"\t\t\t then go to this path : <br>\n"
+"\t\t\t <b style=\"text-align:left; direction:ltr;\">Wordpress Core -> wp-"
+"content -> uploads </b><br>\n"
+"\t\t\t Create a folder called woo-sync. And upload an image in this folder. "
+"For example, pic.jpeg .now if your uploaded image name is <b>pic.jpeg</b> "
+"you can open <b style=\"text-align:left; direction:ltr;\">%2$s/wp-content/"
+"uploads/woo-sync/pic.jpeg</b> in your browser.<br>\n"
+"\t\t\t if you can see your uploaded picture using this link ,back to your "
+"server and copy the current path (directory) and place it in the \"Upload "
+"Path\" field that appears above.<br>\n"
+"\t\t\t In the \"Upload Url\" field, also put the link below : <br>\n"
+"\t\t\t <b style=\"text-align:left; direction:ltr;\">%2$s/wp-content/uploads/"
+"woo-sync</b><br>\t\n"
+"            And then save the settings.<br>"
+msgstr ""
+
+#: includes/publisher.php:100
+msgid "Created"
+msgstr ""
+
+#: includes/publisher.php:104
+msgid "Edited"
+msgstr ""
+
+#: includes/publisher.php:108
+msgid "Deleted"
+msgstr ""
+
+#: includes/publisher.php:112
+msgid "Trashed"
+msgstr ""
+
+#: includes/publisher.php:116
+msgid "Untrashed"
+msgstr ""
+
+#: includes/publisher.php:137 includes/publisher.php:171
+#: includes/publisher.php:206 includes/publisher.php:249
+#: includes/publisher.php:284 includes/publisher.php:330
+msgid "successfully"
+msgstr ""
+
+#: includes/publisher.php:144 includes/publisher.php:178
+#: includes/publisher.php:213 includes/publisher.php:256
+#: includes/publisher.php:291 includes/publisher.php:337
+msgid "Failed to"
+msgstr ""
+
+#: includes/publisher.php:145
+msgid "Response : "
+msgstr ""
+
+#: includes/publisher.php:179 includes/publisher.php:214
+#: includes/publisher.php:257 includes/publisher.php:292
+#: includes/publisher.php:338
+msgid "Store Response : "
+msgstr ""
+
+#: includes/publisher.php:330 includes/publisher.php:337
+msgid "variation of product"
+msgstr ""
+
+#: includes/publisher.php:362 includes/synchronizer/target/categories.php:196
+#: includes/synchronizer/target/products.php:766
+#: includes/synchronizer/target/products.php:798
+#: includes/synchronizer/target/products.php:837
+msgid ""
+"woo sync can not connect to your server , Connection failed , please check "
+"ftp settings!"
+msgstr ""
+
+#: includes/publisher.php:371
+msgid "Uploaded Successfully"
+msgstr ""
+
+#: includes/publisher.php:378
+msgid "Can not upload!"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:14
+msgid "Downloading new object..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:32
+#: includes/synchronizer/local/create.php:94
+#: includes/synchronizer/local/create.php:157
+#: includes/synchronizer/local/create.php:227
+#: includes/synchronizer/local/create.php:295
+#: includes/synchronizer/local/create.php:364
+#: includes/synchronizer/local/create.php:434
+msgid "Checking Download history..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:44
+msgid "Submit a Request for Tax Classes..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:83
+msgid "tax classes found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:85
+msgid "tax classe found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:106
+msgid "Submit a Request for Shipping Classes..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:148
+msgid "shipping classes found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:150
+msgid "shipping class found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:169
+msgid "Submit a Request for Products Tags..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:214
+msgid "tags found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:216
+msgid "tag found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:241
+msgid "Submit a Request for Products categories..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:281
+msgid "categories found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:283
+msgid "category found."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:308
+msgid "Submit a Request for Products attributes..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:345
+msgid "attributes found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:347
+msgid "attribute found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:377
+msgid "Submit a Request for Products..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:420
+msgid "Products were found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:422
+msgid "Product found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:449
+msgid "Submit a Request for Products variations..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:470
+msgid "variation"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:484
+msgid "variations found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:486
+msgid "variation found..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:516
+msgid "Creating new object..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:542
+msgid "is created successfully"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:550
+msgid "Failed to create tag"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:555
+msgid "Product tags Created"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:557
+msgid "Product tag Created"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:594
+#: includes/synchronizer/local/create.php:639
+#: includes/synchronizer/local/create.php:704
+msgid "is created successfully."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:605
+msgid "Tax classes created"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:607
+msgid "Tax class created"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:647
+msgid "Failed to create shipping class"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:652
+msgid "Shipping classes created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:654
+msgid "shipping class created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:713
+msgid "Failed to create category"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:718
+msgid "Categories created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:720
+msgid "Category created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:800
+msgid "created successfully."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:810
+msgid "Failed to create Attribute"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:815
+msgid "Attributes created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:817
+msgid "Attribute created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1192
+msgid "product "
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1192
+msgid "created successfully"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1212
+msgid "products created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1212
+#: includes/synchronizer/local/create.php:1217
+msgid "Creating cross sells..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1217
+msgid "product created."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1240
+msgid "Cross-sells created ..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1240
+msgid "Creating upsells..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1262
+msgid "upsells created..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1262
+msgid "Creating Grouped products"
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1285
+msgid "Grouped products created..."
+msgstr ""
+
+#: includes/synchronizer/local/create.php:1303
+msgid "All Down!"
+msgstr ""
+
+#: includes/synchronizer/target/categories.php:213
+#: includes/synchronizer/target/products.php:855
+msgid ""
+"woo sync can not upload media to your server , Connection failed , please "
+"check ftp settings!"
+msgstr ""
+
+#: woo_sync.php:68
+msgid "Target store url field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:69
+msgid "Consumer key field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:70
+msgid "Consumer secret field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:71
+msgid "FTP port field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:72
+msgid "FTP username field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:73
+msgid "FTP password field should not be empty!"
+msgstr ""
+
+#: woo_sync.php:74
+msgid "preparing..."
+msgstr ""
+
+#: woo_sync.php:75
+msgid "Getting attributes of Products..."
+msgstr ""
+
+#: woo_sync.php:76
+msgid "Getting tags of Products..."
+msgstr ""
+
+#: woo_sync.php:77
+msgid "Getting categories of Products..."
+msgstr ""
+
+#: woo_sync.php:78
+msgid "Getting all Products..."
+msgstr ""
+
+#: woo_sync.php:79
+msgid "Getting all tax classes..."
+msgstr ""
+
+#: woo_sync.php:80
+msgid "Getting all shipping classes..."
+msgstr ""
+
+#: woo_sync.php:81
+msgid "Getting variations of Products..."
+msgstr ""
+
+#: woo_sync.php:82
+msgid "Are you sure you want to clear the download history?"
+msgstr ""
+
+#: woo_sync.php:83
+msgid "Are you sure you want to clear the last changes log?"
+msgstr ""
+
+#: woo_sync.php:84
+msgid "Mission Accomplished."
+msgstr ""
+
+#: woo_sync.php:101
+msgid "Plugin Help File"
+msgstr ""
+
+#: woo_sync.php:101
+msgid "Docs"
+msgstr ""
+
+#: woo_sync.php:102
+msgid "Premium"
+msgstr ""
+
+#: woo_sync.php:102
+msgid "Upgrade To Premium"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Synchronizer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://woo.ttmga.com/woo-sync-en/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Synchronize products between localhost and online store"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "S.J.Hossseini"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://t.me/ttmga"
+msgstr ""
